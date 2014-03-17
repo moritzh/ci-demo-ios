@@ -26,4 +26,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)crash:(id)sender {
+    [self performSelector:@selector(unknown:) withObject:nil afterDelay:0];
+}
+
 @end
